@@ -1,11 +1,9 @@
 <?php
-/**
- * @package WordPress
- * @subpackage Base_Theme
+/*
+ * Make WordPress redirect every request to index.php
+ * Use 'routes.php' inside the 'app' folder to control your views.
  */
-?>
-<?php get_header(); ?>
-	<div id="content" role="main">
-		<?php include("loop.php"); ?>
-	</div>
-<?php get_footer(); ?>
+/*----------------------------------------------------*/
+// Run application.
+/*----------------------------------------------------*/
+themosis_start_app();
